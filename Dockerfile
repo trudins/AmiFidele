@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/BddAmiFidele-integration.jar BddAmiFidele-integration.jar
-ENTRYPOINT [ "java",".jar","BddAmiFidele-integration.jar" ]
+ADD target/bddamifidele-integration.jar bddamifidele-integration.jar
+ENTRYPOINT [ "java",".jar","bddamifidele-integration.jar" ]
